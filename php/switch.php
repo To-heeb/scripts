@@ -133,7 +133,17 @@ $switch = new SwitchVersion($argv);
 /**************************************
  * 
  * 
- * Command to run script; $ php switch.php -version_first number e.g $ php switch.php -8
+ * Command to run script; $ php switch.php -version_first number
+ *                      e.g $ php switch.php -8
  * 
  * 
  **************************************/
+
+/**
+ * TODO
+ * 
+ * Improve script to bw able to swicth between multiple versions e.g three and above
+ * fix xampp error
+ * check if xampp is running before putting it on.
+ * 
+ */
