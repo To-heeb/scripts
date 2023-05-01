@@ -1,5 +1,6 @@
 # Based on this answer: https://stackoverflow.com/a/61859561/1956278
-# command: PowerShell.exe -ExecutionPolicy UnRestricted -File mysql_error_repair.ps1
+# Source: https://gist.github.com/josemmo/24e35f2b4984a4370ce2c164f5956437  with a slight modification
+# Command: PowerShell.exe -ExecutionPolicy UnRestricted -File mysql_error_repair.ps1
 
 # Backup old data
 Rename-Item -Path "C:/xampp/mysql/data" -NewName "C:/xampp/mysql/data_old"
