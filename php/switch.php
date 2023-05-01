@@ -2,7 +2,7 @@
 
 
 /**
- * Switch between php versions in xampp
+ * Switch between two php versions in xampp
  *
  * @author     Oyekola Toheeb <https://github.com/To-heeb>
  * @license    MIT License
@@ -128,3 +128,12 @@ class SwitchVersion
 
 
 $switch = new SwitchVersion($argv);
+
+
+/**************************************
+ * 
+ * 
+ * Command to run script; $ php switch.php -version_first number e.g $ php switch.php -8
+ * 
+ * 
+ **************************************/
